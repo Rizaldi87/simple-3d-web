@@ -1,0 +1,33 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.title {
+  color: white;
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -80%);
+}
